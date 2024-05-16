@@ -1,0 +1,71 @@
+/* Centralize o conteúdo da página */
+.main_container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('C:\Users\Pichau\Desktop\project-fertly\front\src\assets\gravida.jpeg') no-repeat center center fixed; /* Substitua com o caminho da imagem */
+    background-size: cover;
+  }
+  
+  .main {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo transparente */
+    padding: 20px;
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+    text-align: center;
+    width: 300px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .login {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Bordas arredondadas para os inputs */
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px; /* Bordas arredondadas para o botão */
+    background-color: #FFBBA8;
+    color: #64544E;
+    cursor: pointer;
+  }
+  
+  /* button:hover {
+    background-color: #0056b3;
+  } */
+  
+  .forgot_password,
+  .register_link {
+    color: #64544E;
+    text-decoration: none;
+  }
+  
+  .forgot_password:hover,
+  .register_link:hover {
+    text-decoration: underline;
+  }
+  
+  .icon {
+    font-size: 1.2em;
+    color: #254F74;
+  }
+  

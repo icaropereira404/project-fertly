@@ -1,0 +1,53 @@
+/* Register.css */
+.register_container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .register_container h1,
+  .register_container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .register_form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .name_fields,
+  .dob_fields {
+    display: flex;
+    gap: 7px;
+  }
+  
+  .name_fields input,
+  .dob_fields input,
+  .register_form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .register_form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .register_form button:hover {
+    background-color: #45a049;
+  }
+  

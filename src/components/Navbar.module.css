@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2C0A6;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .logo_column img {
+    max-width: 100px; /* Ajuste o tamanho conforme necessário */
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul li  {
+    display: inline;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .buttons_column a {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  
+  .buttons_column a:hover {
+    background-color: #ddd;
+  }
+  

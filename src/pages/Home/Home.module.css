@@ -1,0 +1,42 @@
+/* Home.module.css */
+.center {
+    margin: 0 auto; /* Isso centralizará a página horizontalmente */
+    display: flex;
+    flex-direction: column; /* Alteração para exibir os itens em uma coluna */
+    align-items: center; /* Isso alinhará o conteúdo verticalmente */
+  }
+  
+  .header_container {
+    background: url(../img/onda.png) no-repeat center center;
+    background-size: cover;
+    display: flex;
+  }
+  
+  .left_column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right_column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .service,
+  .section {
+    margin-top: 20px; /* Adicionar margem entre as seções */
+    text-align: center;
+  }
+
+  .section_one {
+    display: flex;
+  }
+
+.text_advocacy {
+    position: relative;
+    right: 40px;
+    background-color: #FBF2E6;
+    text-align: center;
+    
+  }
+  
