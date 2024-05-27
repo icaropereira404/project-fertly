@@ -4,39 +4,106 @@
     display: flex;
     flex-direction: column; /* Alteração para exibir os itens em uma coluna */
     align-items: center; /* Isso alinhará o conteúdo verticalmente */
+    padding: 0 60px;
+  }
+
+  .img_Fundo {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
   }
   
   .header_container {
-    background: url(../img/onda.png) no-repeat center center;
-    background-size: cover;
     display: flex;
+    width: 100%;
+    z-index: 10;
   }
   
   .left_column {
-    flex: 1;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    justify-content: center;
+    width: 50%;
+    /* flex: 1; */
+    /* padding: 20px; */
+    /* background-color: aquamarine; */
   }
   
   .right_column {
-    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
     padding: 20px;
   }
-  
-  .service,
-  .section {
-    margin-top: 20px; /* Adicionar margem entre as seções */
-    text-align: center;
+
+  .text_one {
+    color: #033366;
   }
 
-  .section_one {
+  .text_one h1 {
+    font-size: 43px;
+  }
+
+  .text_two h2 {
+    color: #033366;
+    font-weight: 500;
+  }
+
+  .text_two span {
+    color: #F2C0A6;
+    font-size: 50px;
+  }
+
+  .service {
+    margin-top: 80px !important;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #033366;
   }
 
-.text_advocacy {
-    position: relative;
-    right: 40px;
+  .service p {
+    font-weight: 500;
+  }
+  
+
+  .section_one, .section_two, .section_three, .section_four {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    height: 400px;
+  }
+
+.img_advocacy img, .img_psychology img, .img_physiotherapy img, .img_doula img {
+  width: 400px;
+  z-index: 10;
+}
+
+.text_advocacy, .text_physiotherapy {
+    /* position: relative; */
+    justify-content: space-between;
     background-color: #FBF2E6;
-    text-align: center;
-    
+    height: 100%;
+    padding: 50px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .text_psychology, .text_doula {
+    justify-content: space-between;
+    height: 100%;
+    padding: 50px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F2E0D9;
   }
   
